@@ -2,56 +2,67 @@
 
 ## Overview
 
-Welcome to CS50x, Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming, designed for concentrators and non-concentrators alike, with or without prior programming experience. This course teaches problem-solving skills emphasizing correctness, design, and style. Topics include computational thinking, abstraction, algorithms, data structures, and the broader field of computer science. Problem sets draw inspiration from arts, humanities, social sciences, and sciences.
+This repository contains my solutions to the problem sets and the final project for Harvard University's **CS50x: Introduction to Computer Science** course. This course covers fundamental concepts in computer science and programming.
 
-## Course Structure
+## About the Course
 
-CS50x covers fundamental concepts over eleven weeks:
+**CS50x** is an introduction to the intellectual enterprises of computer science and the art of programming, designed for students with or without prior programming experience. The curriculum covers:
 
-- **Week 0**: Scratch
-- **Week 1**: C
-- **Week 2**: Arrays
-- **Week 3**: Algorithms
-- **Week 4**: Memory
-- **Week 5**: Data Structures
-- **Week 6**: Python
-- **Week 6.5**: Artificial Intelligence
-- **Week 7**: SQL
-- **Week 8**: HTML, CSS, JavaScript
-- **Week 9**: Flask
-- **Week 10**: Cybersecurity
+- Computational thinking
+- Abstraction
+- Algorithms and data structures
+- Functions, variables, and arguments
+- Conditionals and loops
+- Memory management
+- Data structures
+- Python programming
+- SQL databases
+- HTML, CSS, and JavaScript
+- Web development with Flask
+- Cybersecurity principles
 
-The course culminates in a final project.
+### Course Structure
 
-## How to Take This Course
+The course is divided into eleven weeks, each focusing on different aspects of computer science and programming. It includes hands-on practice with exercises inspired by various fields.
 
-Even if you are not enrolled at Harvard, you can access this course for free through Harvard's OpenCourseWare. Follow these steps weekly:
+## My Experience
 
-1. Watch Lecture
-2. Watch Section
-3. Submit Problem Set
-4. Watch Shorts
+I have completed all the assignments and the final project, and received a certificate of completion from Harvard. This repository showcases my journey and solutions for each problem set.
 
-Throughout my journey in this course, I will be regularly updating this repository with my solutions to each week's assignments as I progress through the course.
+## Repository Contents
 
-Finish by submitting the final project. For feedback, create an edX account and engage with the course's communities for questions.
+- **Problem Sets**: Each problem set is stored in its respective directory, named according to the week it was assigned (e.g., `week0`, `week1`, etc.).
+- **Final Project**: The final project is located in the `final_project` directory.
 
-## Links and Resources
+## Links
 
-- [CS50 Website](https://cs50.harvard.edu)
-- [CS50 on edX](https://www.edx.org/course/cs50s-introduction-to-computer-science)
-- [CS50 OpenCourseWare](https://cs50.harvard.edu/x/2024/)
-- [CS50's Zoom Meetings](https://zoom.us/cs50)
-- [CS50 on Ed Discussion](https://eddiscussion.com/cs50)
+- [CS50x Course on edX](https://cs50.edx.org)
 
-## License
+## Certificate
 
-This repository and its contents are licensed under MIT License. Feel free to use and modify these materials according to the terms of the license.
+![CS50x - Harvard University](https://github.com/user-attachments/assets/4327f9da-dbb5-4fc6-8706-072d38183e48)
+
+## How to Use This Repository
+
+Feel free to explore the directories to see my solutions. Each folder contains a README file with a brief explanation of the problem and my approach to solving it.
 
 ## Contact
 
-For questions or feedback, contact David J. Malan at [malan@harvard.edu](mailto:malan@harvard.edu).
+For any questions or feedback, feel free to contact me via [email](kordetani1662@gmail.com).
+
+## License
+
+This repository is licensed under the MIT License. You are welcome to use and modify these materials as per the license terms.
 
 ---
 
-Feel free to explore the course's materials and engage with the community. Happy learning!
+**David J. Malan**
+
+For more information, visit the official [CS50 website](https://cs50.harvard.edu/).
+
+---
+
+Follow the course's community for discussions and help:
+- [CS50 Facebook Group](https://www.facebook.com/groups/cs50)
+- [CS50 Reddit Q&A](https://www.reddit.com/r/cs50)
+- [CS50 Discord Q&A](https://discord.com/invite/cs50)
