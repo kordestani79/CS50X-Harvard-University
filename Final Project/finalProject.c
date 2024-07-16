@@ -4,7 +4,7 @@
 #include <math.h>
 #include <conio.h>
 
-#define Employee struct emp
+# define Employee struct emp
 void add(FILE *fp);             // adding to list
 FILE *del(FILE *fp);            // deleteing from list
 void modify(FILE *fp);          // modifying a record
@@ -163,7 +163,7 @@ int main()
     return 1;
 }
 
-//----printing character ch at n times ------
+// Printing character ch at n times
 
 void printChar(char ch, int n)
 {
@@ -173,7 +173,7 @@ void printChar(char ch, int n)
     }
 }
 
-//-----Printing Head Line of the program -----
+// Printing Head Line of the program 
 
 void printHead()
 {
@@ -188,7 +188,7 @@ void printHead()
     printChar('=', 65);
 }
 
-// ==========ADDING NEW RECORD==========================
+// ADDING NEW RECORD
 
 void add(FILE *fp)
 {
@@ -256,7 +256,7 @@ void add(FILE *fp)
     }
 }
 
-//===================DELETING A RECORD FROM LIST ============
+// DELETING A RECORD FROM LIST
 FILE *del(FILE *fp)
 {
     printHead();
@@ -312,7 +312,7 @@ FILE *del(FILE *fp)
     return fp;
 }
 
-//===========MODIFY A RECORD ===========================
+// MODIFY A RECORD
 
 void modify(FILE *fp)
 {
@@ -398,7 +398,7 @@ void modify(FILE *fp)
     system("pause");
 }
 
-//====================DISPLAY THE LIST =================
+// DISPLAY THE LIST
 void displaylist(FILE *fp)
 {
     printHead();
@@ -428,7 +428,7 @@ void displaylist(FILE *fp)
     system("pause");
 }
 
-//================SEARCH EMPLOYEE================
+// SEARCH EMPLOYEE
 void searchrecord(FILE *fp)
 {
     printHead();
@@ -479,7 +479,7 @@ void searchrecord(FILE *fp)
     }
 }
 
-//========================LIST OF MALE EMPLOYEE====================
+// LIST OF MALE EMPLOYEE
 void male_emp(FILE *fp)
 {
     printHead();
@@ -508,7 +508,7 @@ void male_emp(FILE *fp)
     system("pause");
 }
 
-//========================LIST OF FEMALE EMPLOYEE=================================
+// LIST OF FEMALE EMPLOYEE
 
 void female_emp(FILE *fp)
 {
@@ -537,7 +537,7 @@ void female_emp(FILE *fp)
     system("pause");
 }
 
-//========================LIST OF EMPLOYEE (except from Delhi)===================================
+// LIST OF EMPLOYEE (except from Delhi)
 
 void frmodis(FILE *fp)
 {
@@ -566,7 +566,7 @@ void frmodis(FILE *fp)
     system("pause");
 }
 
-//==============DISPLAY BASIC INFORMATION LIST==================================
+// DISPLAY BASIC INFORMATION LIST
 
 void displaybasic(FILE *fp)
 {
@@ -594,7 +594,7 @@ void displaybasic(FILE *fp)
     system("pause");
 }
 
-//==========================BASIC CONTACT INFO LIST=================================
+// BASIC CONTACT INFO LIST
 
 void contact(FILE *fp)
 {
@@ -620,7 +620,7 @@ void contact(FILE *fp)
     system("pause");
 }
 
-//==========================LIST OF EMPLOYEE FROM MAIN BRANCH=============================
+// LIST OF EMPLOYEE FROM MAIN BRANCH
 
 void mainbranch(FILE *fp)
 {
@@ -649,7 +649,7 @@ void mainbranch(FILE *fp)
     system("pause");
 }
 
-//========================LIST OF EMPLOYEE From OTHRES BRANCH============================
+// LIST OF EMPLOYEE From OTHRES BRANCH
 
 void otherbranch(FILE *fp)
 {
